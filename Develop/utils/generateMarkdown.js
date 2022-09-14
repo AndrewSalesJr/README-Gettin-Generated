@@ -82,6 +82,21 @@ function generateMarkdown(data) {
   ${data.why}
 
   ${data.how}
+
+  ## [Installation](#table-of-contents)
+
+  ${data.installation}
+
+  ${renderLicenseSection(data.license)}
+
+  ## [Contributing](#table-of-contents)
+  
+  ${renderContributingSection(data.confirmContributers, data.contribute)}
+
+  ## [Tests](#table-of-contents)
+  
+  ${data.test}
+
 `;
 }
 
