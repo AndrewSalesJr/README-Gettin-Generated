@@ -45,10 +45,43 @@ function LicenseInTOC(license) {
   }
 };
 
+//function for message when not accepting contributions
+function renderContributers(confirmContributers, data) {
+  if (!confirmContributers) {
+    return `
+    Not currently accepting contributions on this project
+    `;
+  } else {
+    return `
+    ${data}
+    `;
+  }
+};
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
+  ## Table-of-Contents
+
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  ${LicenseInTOC(data.license)}
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## [Description](#table-of-contents)
+
+  ${data.what}
+
+  ${data.why}
+
+  ${data.how}
 `;
 }
 
