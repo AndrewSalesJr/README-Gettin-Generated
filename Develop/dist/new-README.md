@@ -11,7 +11,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
 
-    * [License](#license)
+  * [License](#license)
     
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -34,17 +34,17 @@
   This is how to use it.
 
   
-    ## [License](#table-of-contents)
-    The following license covers this application:
+  ## [License](#table-of-contents)
+  The following license covers this application:
     
-    [mit](https://choosealicense.com/license/mit)
+  [mit](https://choosealicense.com/license/mit)
     
     
 
   ## [Contributing](#table-of-contents)
   
   
-    Not currently accepting contributions on this project
+  Not currently accepting contributions on this project
     
 
   ## [Tests](#table-of-contents)
@@ -55,6 +55,6 @@
 
   Please contact me using the following links:
 
-    [Email: andrewsales2004@gmail.com](mailto:andrewsales2004@gmail.com)
+  [Email: andrewsales2004@gmail.com](mailto:andrewsales2004@gmail.com)
 
   [GitHub](https://github.com/AndrewSalesJr)
